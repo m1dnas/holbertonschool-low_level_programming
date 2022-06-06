@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE > cisfun | chmod 777 cisfun
+gcc -o $CFILE > cifun
