@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *  main - its OK
+ *  main - print whether the number stored is + or -
  *  Return: its OK
  **/
 int main(void)
