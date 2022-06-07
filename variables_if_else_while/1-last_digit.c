@@ -4,7 +4,7 @@
 
 /**
  * main - print the last digit of the number stored in the variable
- * return: its OK
+ * Return: its OK
  **/
 int main(void)
 {
