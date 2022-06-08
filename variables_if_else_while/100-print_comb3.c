@@ -11,7 +11,7 @@ int main(void)
 
 	for (x = 48 ; x <= 56 ; x++)
 	{
-	for (y = z ; y <= 57 ; y++)
+	for (y = z ; y <= 57 ;)
 	{
 		putchar(x);
 		putchar(y);
@@ -22,7 +22,7 @@ int main(void)
 			}
 			x++;
 	}
-	z++
+	z++;
 	}
 	putchar('\n');
 	return (0);
