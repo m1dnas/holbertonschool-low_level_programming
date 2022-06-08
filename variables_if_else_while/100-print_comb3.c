@@ -15,12 +15,12 @@ int main(void)
 	{
 		putchar(x);
 		putchar(y);
-			if (x < 8)
+			if (x < 56)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			x++;
+			y++;
 	}
 	z++;
 	}
