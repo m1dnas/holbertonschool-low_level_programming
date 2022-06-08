@@ -12,18 +12,15 @@ int main(void)
 	{
 	for (y = 49 ; y <= 57 ; y++)
 	{
-		if (y > x)
-		{
-			putchar(x);
-			putchar(y);
-				if (x < 8)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-		}
+		putchar(x);
+		putchar(y);
+			if (x < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 	}
-	}
+}
 	putchar('\n');
 	return (0);
 }
