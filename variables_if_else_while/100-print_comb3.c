@@ -21,7 +21,6 @@ int main(void)
 			}
 			x++;
 	}
-	y++;
 	}
 	putchar('\n');
 	return (0);
