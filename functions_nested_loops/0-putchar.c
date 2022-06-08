@@ -6,7 +6,6 @@
  **/
 int main(void)
 {
-	int main.h;
-	write (2 , "_putchar\n" , 9)
+	write(2 , "_putchar\n" , 9);
 	return (0);
 }
