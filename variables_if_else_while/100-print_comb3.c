@@ -16,13 +16,13 @@ int main(void)
 		{
 			putchar(x);
 			putchar(y);
-		}
 				else if (x < 8)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 		}
+	}
 	}
 	putchar('\n');
 	return (0);
