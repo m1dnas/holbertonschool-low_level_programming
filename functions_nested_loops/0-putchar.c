@@ -6,7 +6,7 @@
  **/
 int main(void)
 {
-	int write
+	int write;
 	write(2 , "_putchar\n" , 9);
 	return (0);
 }
