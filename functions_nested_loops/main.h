@@ -11,7 +11,7 @@ int _putchar(char);
  * print_alphabet - print the alphabet
  *
  **/
-void print_alpabet(void);
+void print_alphabet(void);
 
 
 #endif
