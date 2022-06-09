@@ -22,5 +22,10 @@ void print_alphabet_x10(void);
  * @c: parameter to check
  **/
 int _islower(int c);
+/**
+ * _isalpha - checks for alphabetic character
+ * @c: parameter to check
+ **/
+int _isalpha(int c);
 
 #endif
