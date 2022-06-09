@@ -33,8 +33,8 @@ int _isalpha(int c);
  **/
 int print_sign(int n);
 /**
- * _abs - returns the absolute value of int 'X'
- *
+ * _abs - computes the absolute value of an integer
+ * @i: parameter to compute the absolute value
  **/
 int _abs(int i);
 
