@@ -26,6 +26,11 @@ int _islower(int c);
  * _isalpha - checks for alphabetic character
  * @c: parameter to check
  **/
-int _isalpha(int c);
+int _isalpha(int c)
+/**
+ * print_sign - prints the sign of a number
+ * @n: parameter to sign a number
+ **/
+int print_sign(int n);
 
 #endif
