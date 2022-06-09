@@ -32,5 +32,10 @@ int _isalpha(int c);
  * @n: parameter to sign a number
  **/
 int print_sign(int n);
+/**
+ * _abs - returns the absolute value of int 'X'
+ *
+ **/
+int _abs(int);
 
 #endif
