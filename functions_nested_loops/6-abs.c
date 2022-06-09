@@ -5,11 +5,8 @@
  * _abs - computes the absolute value of an integer
  * Return: 
  **/
-int _abs(int)
+int _abs(int i)
 {
-	char i;
-	char n;
-
 	i= abs(n);
 	return (0);
 }
