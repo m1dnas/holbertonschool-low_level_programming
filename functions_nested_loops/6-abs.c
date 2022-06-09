@@ -3,8 +3,8 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * @i: parameter to compute the absolute value 
- * Return: prints 'e' variable 
+ * @i: parameter to compute the absolute value
+ * Return: prints 'e' variable
  **/
 int _abs(int i)
 {
