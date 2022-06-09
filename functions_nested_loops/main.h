@@ -7,5 +7,11 @@
  ** Return: 1 or 0
  **/
 int _putchar(char);
+/**
+ * print_alphabet - print the alphabet
+ *
+ **/
+void print_alpabet(void);
+
 
 #endif
