@@ -7,7 +7,7 @@
  **/
 int _abs(int)
 {
-	int i, n;
+	char i, n;
 
 	i= abs(n);
 	return (0);
