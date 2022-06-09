@@ -8,8 +8,9 @@
  **/
 int _islower(int c)
 {
-	int c;
-
-	_islower(c);
+	if (_islower(c) > 0)
+	{
+		return (1);
+	}
 	return (0);
 }
