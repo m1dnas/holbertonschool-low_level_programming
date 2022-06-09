@@ -7,6 +7,6 @@
  **/
 int _abs(int i)
 {
-	i= abs(n);
+	char n= abs(i);
 	return (0);
 }
