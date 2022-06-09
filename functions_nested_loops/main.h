@@ -37,9 +37,14 @@ int print_sign(int n);
  **/
 int _abs(int i);
 /**
- *  * print_last_digit - prints the last digit of a number
- *   * @n: parameter to give a number
- *    **/
+ ** print_last_digit - prints the last digit of a number
+ ** @n: parameter to give a number
+ ***/
 int print_last_digit(int n);
+/**
+ * jack_bauer - prints every M of the day, starting from 00 to 23.59
+ *
+ **/
+void jack_bauer(void);
 
 #endif
