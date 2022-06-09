@@ -12,7 +12,7 @@ int _islower(int c)
 	{
 		_putchar('1');
 	}
-			else if (islower(c) == 0)
+			else (islower(c) == 0)
 			{
 				_putchar('0');
 			}
