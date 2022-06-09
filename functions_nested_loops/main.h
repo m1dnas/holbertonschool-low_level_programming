@@ -37,5 +37,10 @@ int print_sign(int n);
  * @i: parameter to compute the absolute value
  **/
 int _abs(int i);
+/**
+ *  * print_last_digit - prints the last digit of a number
+ *   * @n: parameter to give a number
+ *    **/
+int print_last_digit(int n);
 
 #endif
