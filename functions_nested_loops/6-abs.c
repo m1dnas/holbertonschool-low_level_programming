@@ -7,6 +7,8 @@
  **/
 int _abs(int i)
 {
-	char n= abs(i);
-	return (0);
+	int e;
+
+	e= abs(i);
+	return (i);
 }
