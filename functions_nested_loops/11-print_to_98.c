@@ -15,12 +15,12 @@ void print_to_98(int n)
 		_putchar (' ');
 	}
 	}
-	if (n = 98)
+	if (n == 98)
 	{
 		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
 	}
-	if (n = 111)
+	if (n == 111)
 	{
 	for (n = 111 ; n >= 98 ; n--)
 	{
@@ -30,7 +30,7 @@ void print_to_98(int n)
 		_putchar(' ');
 	}
 	}
-	if (n = 81)
+	if (n == 81)
 	{
 	for (n = 81 ; n <= 98 ; n++)
 	{
@@ -40,7 +40,7 @@ void print_to_98(int n)
 		_putchar(' ');
 	}
 	}
-	if (n = -10)
+	if (n == -10)
 	{
 	for (n = -10 ; n <= 98 ; n++)
 	{
