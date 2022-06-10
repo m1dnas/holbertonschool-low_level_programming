@@ -14,14 +14,14 @@ void times_table(void)
 		{
 				if ((x * y) <= 9)
 				{
-					_putchar(n + '0');
+					_putchar((x * y) + '0');
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 				}
 				if ((x * y) > 9)
 				{
-					_putchar(n + '0');
+					_putchar((x * y) + '0');
 					_putchar(',');
 					_putchar(' ');
 				}
