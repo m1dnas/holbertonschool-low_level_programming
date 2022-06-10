@@ -16,7 +16,7 @@ void times_table(void)
 			{
 				_putchar(a * b + '0');
 			}
-			else if (a *b >= 10)
+			else if (a * b >= 10)
 			{
 				_putchar(' ');
 				_putchar(a * b / 10 + '0');
