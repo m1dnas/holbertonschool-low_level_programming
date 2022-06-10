@@ -19,7 +19,7 @@ void times_table(void)
 				_putchar(n % 10 + '0');
 				_putchar(' ');
 			}
-			else if (!(d* (u+1) > 9)
+			else if (!(d* (u+1) > 9))
 			{
 				_putchar(' ');
 				_putchar(' ');
