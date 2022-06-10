@@ -57,6 +57,6 @@ void times_table(void);
  *    * @b: second integer
  *     * Return: the result
  *      **/
-int add(int a, int b)
+int add(int a, int b);
 
 #endif
