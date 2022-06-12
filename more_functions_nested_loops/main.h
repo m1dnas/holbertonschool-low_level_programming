@@ -13,5 +13,12 @@ int _isupper(int c);
  *    * Return: 1 if is c is a digit, 0 otherwise
  *     **/
 int _isdigit(int c);
+/**
+ *  * mul - function that multiples two integers
+ *   * @a: parameter that multiples
+ *    * @b: parameter that multipless
+ *     * Return:
+ *      **/
+int mul(int a, int b);
 
 #endif
