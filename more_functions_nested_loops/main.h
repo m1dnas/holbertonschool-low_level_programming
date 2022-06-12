@@ -5,7 +5,7 @@
  * _putchar - put a character
  * @c: the character
  **/
-int putchar(char c);
+int _putchar(char c);
 /**
  * _isupper - checks for uppercase character
  * @c: parameter to check
