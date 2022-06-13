@@ -50,5 +50,11 @@ void print_line(int n);
  *   * @n: number of times the character \ should be printed
  *    **/
 void print_diagonal(int n);
+/**
+ *  * print_square - function that prints a square, followed by a new line.
+ *   * @size: is the size of the square
+ *    * Return: void
+ *     **/
+void print_square(int size);
 
 #endif
