@@ -19,9 +19,9 @@ void print_times_table(int n)
 			{
 				int c = a * b;
 
-				if (b == n)
+				if (c == 0)
 				{
-					printf("\n");
+					printf("%d");
 				}
 				else if (c >= 100)
 				{
@@ -39,9 +39,9 @@ void print_times_table(int n)
 				{
 					printf(",");
 				}
-				if (c == 0)
+				if (b == n)
 				{
-					printf("%d,  ", c);
+					printf("\n");
 				}
 			}
 		}
