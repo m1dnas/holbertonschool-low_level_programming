@@ -21,7 +21,7 @@ void print_times_table(int n)
 
 				if (c == 0)
 				{
-					printf("%d,  ");
+					printf("%d,  ", c);
 				}
 				else if (c >= 100)
 				{
