@@ -10,7 +10,8 @@ void print_times_table(int n)
 {
 	int a, b;
 
-	if (0 < n || n > 15)
+
+	if (n >= 0 || n <= 15)
 	{
 		for (a = 0; a <= n; a++)
 		{
@@ -20,7 +21,7 @@ void print_times_table(int n)
 
 				if (c == 0)
 				{
-					printf("0");
+					printf("0,  ");
 				}
 				else if (c >= 100)
 				{
@@ -45,5 +46,6 @@ void print_times_table(int n)
 			}
 		}
 	}
+	printf("0");
 	printf("\n");
 }
