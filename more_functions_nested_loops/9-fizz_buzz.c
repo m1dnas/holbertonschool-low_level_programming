@@ -7,19 +7,24 @@
  **/
 int main(void)
 {
-	int a, b, c, d;
-
-	b = a * 3;
-	c = a * 5;
-	d = b && c;
+	int a;
 
 	for (a = 1; a <= 100; a++)
 	{
 		printf("%d ", a);
-		if (b = a)
+		if (a % 3 == 0)
 		{
-			b = a;
 			printf("Fizz ");
 		}
+		if (a % 5 == 0)
+		{
+			printf("Buzz ");
+		}
+		if (a % 5 == 0 && a % 3 == 0)
+		{
+			printf("FizzBuzz ");
+		}
 	}
+	printf("\n");
+	return (0);
 }
