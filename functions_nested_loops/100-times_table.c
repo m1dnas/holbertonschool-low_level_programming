@@ -31,7 +31,7 @@ void print_times_table(int n)
 				{
 					printf("   %d", c);
 				}
-				else
+				if else (c >= 10 && c < 100)
 				{
 					printf("  %d", c);
 				}
