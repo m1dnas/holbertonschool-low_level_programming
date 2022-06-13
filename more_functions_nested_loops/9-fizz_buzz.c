@@ -13,17 +13,11 @@ int main(void)
 	{
 		printf("%d ", a);
 		if (a % 3 == 0)
-		{
 			printf("Fizz ");
-		}
 		if (a % 5 == 0)
-		{
 			printf("Buzz ");
-		}
 		if (a % 5 == 0 && a % 3 == 0)
-		{
 			printf("FizzBuzz ");
-		}
 	}
 	printf("\n");
 	return (0);
