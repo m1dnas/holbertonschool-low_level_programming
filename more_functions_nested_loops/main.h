@@ -45,6 +45,10 @@ void more_numbers(void);
  *   * @n: parameter to draw 'n' times
  *    **/
 void print_line(int n);
-
+/**
+ *  * print_diagonal - function that draws a diagonal line on the terminal
+ *   * @n: number of times the character \ should be printed
+ *    **/
+void print_diagonal(int n);
 
 #endif
