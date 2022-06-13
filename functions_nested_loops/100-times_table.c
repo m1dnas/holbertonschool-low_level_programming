@@ -8,11 +8,42 @@
  **/
 void print_times_table(int n)
 {
-	while (n >= 1 && n <= 15)
+	int a, b, c;
+
+	if (0 < n || n > 15)
 	{
-		if (n == 2)
+		for (a = 0; a <= n; a++)
 		{
-			printf("0");
+			for (b = 0; b <= n; b++)
+			{
+				int c = a * b;
+
+				if (c == 0)
+				{
+					printf("0");
+				}
+				else if (c >= 100)
+				{
+					printf(" %d", c);
+				}
+				else if (c < 10)
+				{
+					printf("   %d", c);
+				}
+				else
+				{
+					printf("  %d", c);
+				}
+				if (b == n)
+				{
+					printf("\n");
+				}
+				else
+				{
+					printf(",");
+				}
+			}
 		}
 	}
+	printf("\n");
 }
