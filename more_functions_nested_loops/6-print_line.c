@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * function that draws a straight line in the terminal
+ * print_line - function that draws a straight line in the terminal
  * @n: parameter to draw 'n' times
  **/
 void print_line(int n)
 {
-	if (n > 0)
+	int a;
+
+	for (a = 0; n > a; n++)
 	{
-	_putchar('_');
+		_putchar('_');
 	}
 	_putchar('\n');
 }
