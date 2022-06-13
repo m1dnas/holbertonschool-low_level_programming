@@ -19,22 +19,22 @@ void print_times_table(int n)
 			{
 				int c = a * b;
 
-				if (b == n)
-				{
-					printf("%d", c);
-					printf("\n");
-				}
 				if (c >= 100)
 				{
 					printf("%d, ", c);
 				}
-				else if (c < 10)
+				else if (c < 10 && c != 0)
 				{
 					printf("%d,   ", c);
 				}
 				else
 				{
 					printf("%d,  ", c);
+				}
+				if (b == n)
+				{
+					printf("%d", c);
+					printf("\n");
 				}
 			}
 		}
