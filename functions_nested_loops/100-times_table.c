@@ -27,13 +27,13 @@ void print_times_table(int n)
 				{
 					printf("  %d", c);
 				}
-				else if (c >= 100 && b != 0)
-				{
-					printf("%d", c);
-				}
 				else if (c >= 10 && c < 100)
 				{
 					printf(" %d", c);
+				}
+				else if (c >= 100 && b != 0)
+				{
+					printf("%d", c);
 				}
 			}
 			printf("\n");
