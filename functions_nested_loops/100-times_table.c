@@ -19,7 +19,7 @@ void print_times_table(int n)
 			{
 				int c = a * b;
 
-				else if (c >= 100)
+				if (c >= 100)
 				{
 					printf(" %d", c);
 				}
