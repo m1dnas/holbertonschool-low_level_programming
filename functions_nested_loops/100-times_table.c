@@ -21,19 +21,19 @@ void print_times_table(int n)
 
 				if (c == 0)
 				{
-					printf("%d,   ", c);
+					printf("%d", c);
 				}
 				else if (c >= 100)
 				{
-					printf("%d, ", c);
+					printf(" ,%d", c);
 				}
 				else if (c < 10 && c != 0 && b != n)
 				{
-					printf("%d,   ", c);
+					printf("   ,%d", c);
 				}
 				else if (c >= 10 && c < 100)
 				{
-					printf("%d,  ", c);
+					printf("  ,%d", c);
 				}
 				if (b == n)
 				{
