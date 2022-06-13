@@ -36,8 +36,10 @@ void print_times_table(int n)
 					printf("  %d", c);
 				}
 				else
+				{
 					_putchar(c % 10 + '0');
 					_putchar('\n');
+				}
 			}
 			printf("\n");
 		}
