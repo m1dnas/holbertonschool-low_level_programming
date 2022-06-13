@@ -23,10 +23,6 @@ void print_times_table(int n)
 				{
 					printf("\n");
 				}
-				if (c == 0)
-				{
-					printf("%d,  ", c);
-				}
 				else if (c >= 100)
 				{
 					printf(" %d", c);
@@ -42,6 +38,10 @@ void print_times_table(int n)
 				else
 				{
 					printf(",");
+				}
+				if (c == 0)
+				{
+					printf("%d,  ", c);
 				}
 			}
 		}
