@@ -9,7 +9,6 @@
 void print_times_table(int n)
 {
 	int a, b;
-	int c = a * b;
 
 	if (0 < n || n > 15)
 	{
@@ -17,6 +16,8 @@ void print_times_table(int n)
 		{
 			for (b = 0; b <= n; b++)
 			{
+				int c = a * b;
+
 				if (c == 0)
 				{
 					printf("0");
