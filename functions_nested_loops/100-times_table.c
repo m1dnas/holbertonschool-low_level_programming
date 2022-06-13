@@ -19,18 +19,17 @@ void print_times_table(int n)
 			{
 				int c = a * b;
 
-				_putchar(c % 10 + '0');
 				if (b != 0)
 				{
 					printf(", ");
 				}
-				if (c >= 100 && b != 0)
-				{
-					printf("%d", c);
-				}
-				else if (c < 10 && b != 0)
+				if (c < 10 && b != 0)
 				{
 					printf("  %d", c);
+				}
+				else if (c >= 100 && b != 0)
+				{
+					printf("%d", c);
 				}
 				else if (c >= 10 && c < 100)
 				{
