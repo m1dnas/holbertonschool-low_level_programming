@@ -9,15 +9,17 @@
  **/
 void print_rev(char *s)
 {
-	int i, length, w;
-	length = strlen(s);
-
-	for (i = 0; i < length/2; i++)
+	int a, b, len;
+	len = strlen(s);
+	a = 0;
+	
+	while (a != '\0')
 	{
-		w = s[i];
-		s[i] = s[length - i - 1];
-		s[length - i - 1] = w;
-		putchar(w);
+		a++;
 	}
-	printf("\n");
+
+	for (b = len - 1; b > 0; b--)
+	{
+		putchar(s[b]);
+	}
 }
