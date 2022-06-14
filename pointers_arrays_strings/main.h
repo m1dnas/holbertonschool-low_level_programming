@@ -7,5 +7,12 @@
  *   * Return: void
  *    **/
 void reset_to_98(int *n);
+/**
+ *  * swap_int - function that swaps the values of two integers
+ *   * @a: integer
+ *    * @b: integer 2
+ *     * Return: void
+ *      **/
+void swap_int(int *a, int *b);
 
 #endif
