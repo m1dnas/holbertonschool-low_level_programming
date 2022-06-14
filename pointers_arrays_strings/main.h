@@ -14,5 +14,11 @@ void reset_to_98(int *n);
  *     * Return: void
  *      **/
 void swap_int(int *a, int *b);
+/**
+ *  * _strlen - function that returns the length of a string
+ *   * @s: the string
+ *    * Return: the lenght of a string
+ *     **/
+int _strlen(char *s);
 
 #endif
