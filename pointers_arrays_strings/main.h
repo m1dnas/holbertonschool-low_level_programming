@@ -20,5 +20,11 @@ void swap_int(int *a, int *b);
  *    * Return: the lenght of a string
  *     **/
 int _strlen(char *s);
+/**
+ *  * _puts - function that prints a string to stdout
+ *   * @str: the string
+ *    * Return: void
+ *     **/
+void _puts(char *str);
 
 #endif
