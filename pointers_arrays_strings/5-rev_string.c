@@ -3,11 +3,11 @@
 #include <string.h>
 
 /**
- * print_rev - function that prints a string, in reverse
+ * rev_string - function that prints a string, in reverse
  * @s: the string
  * Return: void
  **/
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int b, len;
 
