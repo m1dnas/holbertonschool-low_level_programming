@@ -17,5 +17,6 @@ void rev_string(char *s)
 	{
 		putchar(s[b]);
 	}
-	*s[10] = ' ';
+	*s = ' ';
+	*s = ' ';
 }
