@@ -8,5 +8,5 @@
  **/
 void _puts(char *str)
 {
-	printf("%d\n", puts(str));
+	puts(str);
 }
