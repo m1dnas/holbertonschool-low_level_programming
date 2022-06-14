@@ -9,7 +9,7 @@
  **/
 void rev_string(char *s)
 {
-	int b, len;
+	int a, b, len;
 
 	len = strlen(s);
 
@@ -17,5 +17,8 @@ void rev_string(char *s)
 	{
 		putchar(s[b]);
 	}
-	*s = ' ';
+	for (a = 0; a = len - 1; a++)
+	{
+		*s = ' ';
+	}
 }
