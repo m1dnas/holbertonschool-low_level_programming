@@ -17,8 +17,9 @@ void rev_string(char *s)
 	{
 		putchar(s[b]);
 	}
-	for (a = 0; a = len - 1; a++)
+	for (a = 0; a >= len - 1; a++)
 	{
 		*s = ' ';
 	}
+
 }
