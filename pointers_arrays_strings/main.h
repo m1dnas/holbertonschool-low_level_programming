@@ -50,6 +50,13 @@ void puts2(char *str);
  * Return: void
  **/
 void puts_half(char *str);
+/**
+ *  * print_array - prints n elements of an array of integers
+ *   * @a: the string
+ *    * @n: the number of elements of the array to be printed
+ *     * Return: void
+ *      **/
+void print_array(int *a, int n);
 
 int _strlen(char *s);
 
