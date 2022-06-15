@@ -9,11 +9,9 @@
  **/
 void puts2(char *str)
 {
-	int i, len;
+	int i;
 
-	len = strlen(str);
-
-	for (i = 0; i > len - 1 ; i++)
+	for (i = 0; i > '\0' ; i++)
 	{
 		putchar(*(str + i * 2));
 	}
