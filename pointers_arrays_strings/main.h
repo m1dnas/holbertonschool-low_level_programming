@@ -44,6 +44,12 @@ void rev_string(char *s);
  *    * Return: void
  *     **/
 void puts2(char *str);
+/**
+ * puts_half - prints half of a string
+ * @str: the string
+ * Return: void
+ **/
+void puts_half(char *str);
 
 int _strlen(char *s);
 
