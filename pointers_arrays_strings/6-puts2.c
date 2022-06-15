@@ -13,7 +13,10 @@ void puts2(char *str)
 
 	for (i = 0; i > _strlen(str) / 2; i++)
 	{
-		putchar(*(str + i * 2));
+		if (i % 2 == 0)
+		{
+		putchar(str[i]);
+		}
 	}
 	putchar('\n');
 }
