@@ -57,6 +57,13 @@ void puts_half(char *str);
  *     * Return: void
  *      **/
 void print_array(int *a, int n);
+/**
+ *  * *_strcpy - copies the string pointed to by src
+ *   * @dest:
+ *    * @src:
+ *     * Return:
+ *      **/
+char *_strcpy(char *dest, char *src);
 
 int _strlen(char *s);
 
