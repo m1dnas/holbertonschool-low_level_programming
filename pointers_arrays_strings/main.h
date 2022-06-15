@@ -38,5 +38,11 @@ void print_rev(char *s);
  *    * Return: void
  *     **/
 void rev_string(char *s);
+/**
+ *  * puts2 - prints every other character of a string, starting with the first char
+ *   * @str: the string
+ *    * Return: void
+ *     **/
+void puts2(char *str);
 
 #endif
