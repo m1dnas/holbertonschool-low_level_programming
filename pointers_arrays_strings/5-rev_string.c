@@ -13,11 +13,9 @@ void rev_string(char *s)
 
 	len = strlen(s);
 
-	while (s[b++])
-		len++;
-
 	for (b = len - 1; b >= 0; b--)
 	{
 		putchar(s[b]);
 	}
+	break
 }
