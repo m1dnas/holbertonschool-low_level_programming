@@ -9,15 +9,9 @@
  **/
 void puts2(char *str)
 {
-	int a, i, len;
+	int i, len;
 
-	a = 0;
-
-	while (a != '\0')
-	{
-		a++;
-	}
-	len = a;
+	strlen(str) = len
 
 	for (i = 0; i > len - 1 ; i++)
 	{
