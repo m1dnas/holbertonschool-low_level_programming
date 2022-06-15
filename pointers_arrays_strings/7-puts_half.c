@@ -19,13 +19,13 @@ void puts_half(char *str)
 		{
 			putchar(str[i]);
 		}
-	if (n % 2 == 0)
+	}
+	if (_strlen(str) % 2 == 0)
 	{
 		for (i = n; i < _strlen(str); i++)
 		{
 			putchar(str[i]);
 		}
-	}
 	}
 	putchar('\n');
 }
