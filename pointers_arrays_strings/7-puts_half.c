@@ -10,19 +10,18 @@
 void puts_half(char *str)
 {
 	int i;
-	int len = _strlen(str);
-	int n = len / 2;
-	int nodd = (len + 1) / 2;
+	int n = _strlen(str) / 2;
+	int nodd = (_strlen(str) + 1) / 2;
 
-	if (!(len % 2 == 0))
+	if (!(_strlen(str) % 2 == 0))
 	{
-		for (i = (nodd + 1) / 2; i < len; i++)
+		for (i = nodd; i < _strlen(str); i++)
 		{
 			putchar(str[i]);
 		}
-	if (len % 2 == 0)
+	if (_strlen(str) % 2 == 0)
 	{
-		for (i = n; i < len; i++)
+		for (i = n; i < _strlen(str); i++)
 		{
 			putchar(str[i]);
 		}
