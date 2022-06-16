@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 	int i;
 
 /** src[i] is to go until the last character of the string src */
-	for (i = 0; i >= src['\0']; i++)
+	for (i = 0; i > src['\0']; i++)
 	{
 	dest[i] = src[i];
 	}
