@@ -15,7 +15,7 @@ char *_strcpy(char *dest, char *src)
 /** src[i] is to go until the last character of the string src */
 	for (i = 0; src[i]; i++)
 	{
-	strcpy(dest, src);
+	dest[i] = src[i];
 	}
 	return (dest);
 }
