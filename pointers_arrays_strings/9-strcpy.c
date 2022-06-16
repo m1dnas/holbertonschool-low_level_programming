@@ -10,10 +10,13 @@
  **/
 char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int i = 0;
 
 /** src[i] is to go until the last character of the string src */
-	for (i = 0; i > src['\0']; i++)
+	while (src[i])
+	{
+		i++;
 		dest[i] = src[i];
-		return (dest);
+	}
+	return (dest);
 }
