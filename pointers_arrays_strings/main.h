@@ -78,6 +78,14 @@ char *_strcat(char *dest, char *src);
  *     * Return: string dest
  *      **/
 char *_strncat(char *dest, char *src, int n);
+/**
+ *  * _strncpy - copies a string
+ *   * @dest: the pointer to the destination array where the content is to be copied
+ *    * @src: the string to be copied
+ *     * @n: the number of characters to be copied from source
+ *      * Return: dest
+ *       **/
+char *_strncpy(char *dest, char *src, int n);
 
 int _strlen(char *s);
 
