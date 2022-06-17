@@ -71,6 +71,13 @@ char *_strcpy(char *dest, char *src);
  *     * Return: a pointer to the resulting string dest
  *      **/
 char *_strcat(char *dest, char *src);
+/** _strncat - concatenates two strings
+ *  * @dest: the pointer to the destination array, which should contain a C string
+ *   * @src: the string to be appended
+ *    * @n: most 'n' bytes from src
+ *     * Return: string dest
+ *      **/
+char *_strncat(char *dest, char *src, int n);
 
 int _strlen(char *s);
 
