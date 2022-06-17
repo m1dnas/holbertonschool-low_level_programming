@@ -19,7 +19,7 @@ char *_strncpy(char *dest, char *src, int n)
         {
 		if (src[i] < n)
 		{
-			putchar('-')
+			putchar('-');
 		}
                 dest[j + i] = src[i];
         }
