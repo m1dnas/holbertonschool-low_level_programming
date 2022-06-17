@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** _strncat - concatenates two strings
+/** 
+ * _strncat - concatenates two strings
  * @dest: the pointer to the destination array, which should contain a C string
  * @src: the string to be appended
  * @n: maximum number of characters to be appended
