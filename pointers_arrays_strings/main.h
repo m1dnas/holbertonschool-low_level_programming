@@ -64,6 +64,13 @@ void print_array(int *a, int n);
  *     * Return:
  *      **/
 char *_strcpy(char *dest, char *src);
+/**
+ *  * _strcat - concatenates two strings
+ *   * @dest: the pointer to the destination array, which should contain a C string
+ *    * @src: the string to be appended
+ *     * Return: a pointer to the resulting string dest
+ *      **/
+char *_strcat(char *dest, char *src);
 
 int _strlen(char *s);
 
