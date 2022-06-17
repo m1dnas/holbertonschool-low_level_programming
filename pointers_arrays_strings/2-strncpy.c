@@ -3,7 +3,7 @@
 
 /**
  * _strncpy - copies a string
- * @dest: the pointer to the destination array where the content is to be copied
+ * @dest: the pointer to the destination array where the content's to be copied
  * @src: the string to be copied
  * @n: the number of characters to be copied from source
  * Return: dest
@@ -17,6 +17,10 @@ char *_strncpy(char *dest, char *src, int n)
         }
         for (i = 0; i < n && src[i] != '\0'; i++)
         {
+		if (src[i] < n)
+		{
+			putchar('-')
+		}
                 dest[j + i] = src[i];
         }
         return (dest);
