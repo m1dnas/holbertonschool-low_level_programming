@@ -89,8 +89,10 @@ char *_strncpy(char *dest, char *src, int n);
 /**
  * _strcmp - compares two strings
  * @s1: the first string to be compared
- *s@s2: the second string to be compared
- * Return: the value if s2 is less, greater or equal to s1
+ * @s2: the second string to be compared
+ * Return: if the 1st non-matching char has a lower ascii value in s1 than s2
+ *         if the strings are equal
+ *         if the 1st non-matching char has a higher ascii value in s1 than s2
  **/
 int _strcmp(char *s1, char *s2);
 
