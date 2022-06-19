@@ -8,7 +8,7 @@
 char *cap_string(char *a)
 {
 	/* declare and define all the special characters */
-	int b[13] = {' ', '\t', '\n', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	char b[13] = {' ', '\t', '\n', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 	int i, j;
 
 	for (i = 0; a[i]; i++)
