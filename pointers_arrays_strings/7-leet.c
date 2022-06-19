@@ -14,12 +14,15 @@ char *leet(char *s)
 	{
 		for (j = 0; a[j]; j++)
 		{
-			/* when one char is equal to other char of the other
+			/**
+			 * when one char is equal to other char of the other
 			 * string's going to output the number that is
-			 * next (+1) to the mentioned character*/ 
+			 * next (+1) to the mentioned character
+			 **/
 			if (s[i] == a[j])
 			{
 				s[i] = a[j + 1];
+				break;
 			}
 		}
 	}
