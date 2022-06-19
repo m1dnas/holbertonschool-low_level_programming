@@ -114,6 +114,12 @@ char *string_toupper(char *j);
  * Return: all words capitalized
  **/
 char *cap_string(char *a);
+/**
+ * leet - encodes a string into 1337
+ * @s: the string without 1337
+ * Return: the string into 1337
+ **/
+char *leet(char *s);
 
 int _strlen(char *s);
 
