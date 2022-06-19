@@ -5,16 +5,16 @@
  * @str: the string
  * Return: string in uppercase
  **/
-char *string_toupper(char *str)
+char *string_toupper(char *j)
 {
 	int i;
 
 	for (i = 0; i != '\0'; i++)
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (j[i] >= 'a' && j[i] <= 'z')
 		{
-			str[i] = str[i] - 32;
+			j[i] = j[i] - 32;
 		}
 	}
-	return (str[i]);
+	return (j);
 }
