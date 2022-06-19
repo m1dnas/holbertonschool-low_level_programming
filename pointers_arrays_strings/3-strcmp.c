@@ -9,14 +9,19 @@
  **/
 int _strcmp(char *s1, char *s2)
 {
+	int i;
+
 	if (s2 > s1)
 	{
-		return (-15);
+		i = -15;
 	}
-	if (s2 < s1)
+	else if (s2 < s1)
 	{
-		return (15);
+		i = 15;
 	}
-	if (s2 == s1)
-		return (0);
+	else if (s2 == s1)
+	{
+		i = 0;
+	}
+	return (i);
 }
