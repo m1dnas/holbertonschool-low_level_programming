@@ -108,6 +108,12 @@ void reverse_array(int *a, int n);
  * Return: string in uppercase
  **/
 char *string_toupper(char *j);
+/**
+ * cap_string - capitalizes all words of a string
+ * @a: the string to return
+ * Return: all words capitalized
+ **/
+char *cap_string(char *a);
 
 int _strlen(char *s);
 
