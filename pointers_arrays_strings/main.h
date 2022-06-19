@@ -120,6 +120,14 @@ char *cap_string(char *a);
  * Return: the string into 1337
  **/
 char *leet(char *s);
+/**
+ *  * _memset - fills memory with a constant byte
+ *   * @s: array to set
+ *    * @b: value to set it as
+ *     * @n: times
+ *      * Return: value of s
+ *       */
+char *_memset(char *s, char b, unsigned int n);
 
 int _strlen(char *s);
 
