@@ -157,7 +157,13 @@ unsigned int _strspn(char *s, char *accept);
  *     * Return: new value
  *      */
 char *_strpbrk(char *s, char *accept);
-
+/**
+ *  * _strstr - locates a substring
+ *   * @haystack: main C string to be scanned
+ *    * @needle: small string to be searched with-in haystack string
+ *     * Return: to the begin
+ *      */
+char *_strstr(char *haystack, char *needle);
 int _strlen(char *s);
 
 #endif
