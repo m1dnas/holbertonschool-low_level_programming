@@ -170,6 +170,13 @@ char *_strstr(char *haystack, char *needle);
  *    * Return: void
  *     */
 void print_chessboard(char (*a)[8]);
+/**
+ *  * print_diagsums - prints the sum of the two diagonals
+ *   * @a: string
+ *    * @size: the size of
+ *     * Return: void
+ *      */
+void print_diagsums(int *a, int size);
 int _strlen(char *s);
 
 #endif
