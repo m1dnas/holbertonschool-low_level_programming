@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_chessboard - prints the chessboard
@@ -13,8 +14,8 @@ void print_chessboard(char (*a)[8])
 	{
 		for (c = 0; c < 8; c++)
 		{
-		_putchar(a[b][c]);
+		putchar(a[b][c]);
 		}
-		_putchar(10);
+		putchar(10);
 	}
 }
