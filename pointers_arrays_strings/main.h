@@ -128,6 +128,21 @@ char *leet(char *s);
  *      * Return: value of s
  *       */
 char *_memset(char *s, char b, unsigned int n);
+/**
+ *  * _memcpy - copies memory area
+ *   * @dest: destination to copy to
+ *    * @src: source to copy from
+ *     * @n: times
+ *      * Return: the string value
+ *       */
+char *_memcpy(char *dest, char *src, unsigned int n);
+/**
+ *  * _strchr - locates a character in string
+ *   * @s: string to locate char
+ *    * @c: character to find
+ *     * Return: character value
+ *      */
+char *_strchr(char *s, char c);
 
 int _strlen(char *s);
 
