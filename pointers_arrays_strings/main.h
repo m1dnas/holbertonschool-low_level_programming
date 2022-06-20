@@ -164,6 +164,12 @@ char *_strpbrk(char *s, char *accept);
  *     * Return: to the begin
  *      */
 char *_strstr(char *haystack, char *needle);
+/**
+ *  * print_chessboard - prints the chessboard
+ *   * @a: string
+ *    * Return: void
+ *     */
+void print_chessboard(char (*a)[8]);
 int _strlen(char *s);
 
 #endif
