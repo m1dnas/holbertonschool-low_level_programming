@@ -143,6 +143,20 @@ char *_memcpy(char *dest, char *src, unsigned int n);
  *     * Return: character value
  *      */
 char *_strchr(char *s, char c);
+/**
+ *  * _strspn - length of a prefix substring
+ *   * @s: string to go through
+ *    * @accept: accepted bytes
+ *     * Return: unsigned values
+ *      */
+unsigned int _strspn(char *s, char *accept);
+/**
+ *  * _strpbrk - searches a string for any of a set of bytes
+ *   * @s: string to find stuff
+ *    * @accept: accepting arrays
+ *     * Return: new value
+ *      */
+char *_strpbrk(char *s, char *accept);
 
 int _strlen(char *s);
 
