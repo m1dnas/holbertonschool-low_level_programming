@@ -9,6 +9,7 @@ void _print_rev_recursion(char *s)
 {
 	if (*s)
 	{
+		/* it's going char per char until the end */
 		_print_rev_recursion(s + 1);
 		_putchar(*s);
 	}
