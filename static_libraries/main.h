@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /**
- *  * reset_to_98 - function that takes a pointer and updates the value it points to to 98
+ *  * reset_to_98 - function that takes a pointer and updates the value it p
  *   * @n: a parameter that takes a pointer
  *   * Return: void
  *    **/
@@ -39,7 +39,7 @@ void print_rev(char *s);
  *     **/
 void rev_string(char *s);
 /**
- *  * puts2 - prints every other character of a string, starting with the first char
+ *  * puts2 - prints every other character of a string, starting with 
  *   * @str: the string
  *    * Return: void
  *     **/
@@ -66,13 +66,13 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 /**
  *  * _strcat - concatenates two strings
- *   * @dest: the pointer to the destination array, which should contain a C string
+ *   * @dest: the pointer to the destination array, which shou
  *    * @src: the string to be appended
  *     * Return: a pointer to the resulting string dest
  *      **/
 char *_strcat(char *dest, char *src);
 /** _strncat - concatenates two strings
- *  * @dest: the pointer to the destination array, which should contain a C string
+ *  * @dest: the pointer to the destination array, which should con
  *   * @src: the string to be appended
  *    * @n: most 'n' bytes from src
  *     * Return: string dest
@@ -80,7 +80,7 @@ char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 /**
  *  * _strncpy - copies a string
- *   * @dest: the pointer to the destination array where the content is to be copied
+ *   * @dest: the pointer to the destination array where the con
  *    * @src: the string to be copied
  *     * @n: the number of characters to be copied from source
  *      * Return: dest
@@ -120,186 +120,35 @@ char *cap_string(char *a);
  * Return: the string into 1337
  **/
 char *leet(char *s);
-/**
- *  * _memset - fills memory with a constant byte
- *   * @s: array to set
- *    * @b: value to set it as
- *     * @n: times
- *      * Return: value of s
- *       */
 char *_memset(char *s, char b, unsigned int n);
-/**
- *  * _memcpy - copies memory area
- *   * @dest: destination to copy to
- *    * @src: source to copy from
- *     * @n: times
- *      * Return: the string value
- *       */
 char *_memcpy(char *dest, char *src, unsigned int n);
-/**
- *  * _strchr - locates a character in string
- *   * @s: string to locate char
- *    * @c: character to find
- *     * Return: character value
- *      */
 char *_strchr(char *s, char c);
-/**
- *  * _strspn - length of a prefix substring
- *   * @s: string to go through
- *    * @accept: accepted bytes
- *     * Return: unsigned values
- *      */
 unsigned int _strspn(char *s, char *accept);
-/**
- *  * _strpbrk - searches a string for any of a set of bytes
- *   * @s: string to find stuff
- *    * @accept: accepting arrays
- *     * Return: new value
- *      */
 char *_strpbrk(char *s, char *accept);
-/**
- *  * _strstr - locates a substring
- *   * @haystack: main C string to be scanned
- *    * @needle: small string to be searched with-in haystack string
- *     * Return: to the begin
- *      */
 char *_strstr(char *haystack, char *needle);
-/**
- *  * print_chessboard - prints the chessboard
- *   * @a: string
- *    * Return: void
- *     */
 void print_chessboard(char (*a)[8]);
-/**
- *  * print_diagsums - prints the sum of the two diagonals
- *   * @a: string
- *    * @size: the size of
- *     * Return: void
- *      */
 void print_diagsums(int *a, int size);
 int _strlen(char *s);
-/**
- * _isupper - checks for uppercase character
- * @c: parameter to check
- * Return: 0
- **/
-int _isupper(int c);
-/**
- *  * _isdigit - functions that checks for a digit
- *   * @c: parameter to check
- *    * Return: 1 if is c is a digit, 0 otherwise
- *     **/
 int _isdigit(int c);
-/**
- *  * mul - function that multiples two integers
- *   * @a: parameter that multiples
- *    * @b: parameter that multipless
- *     * Return:
- *      **/
 int mul(int a, int b);
-/**
- *  * print_numbers - function that prints the numbers, from 0 to 9
- *   *
- *    **/
 void print_numbers(void);
-/**
- *  * print_most_numbers - function that print the numbers, except 2 and 4
- *   *
- *    **/
 void print_most_numbers(void);
-/**
- *  * more_numbers - function that prints 10 times the numbers, from 10 to 14
- *   *
- *    **/
 void more_numbers(void);
-/**
- *  * function that draws a straight line in the terminal
- *   * @n: parameter to draw 'n' times
- *    **/
 void print_line(int n);
-/**
- *  * print_diagonal - function that draws a diagonal line on the terminal
- *   * @n: number of times the character \ should be printed
- *    **/
 void print_diagonal(int n);
-/**
- *  * print_square - function that prints a square, followed by a new line.
- *   * @size: is the size of the square
- *    * Return: void
- *     **/
 void print_square(int size);
-/**
- *  * print_triangle - function that prints a triangle, followed by a new line
- *   * @size: is the size of the triangle
- *    **/
 void print_triangle(int size);
-/**
- ** _putchar - writes the character c to std
- ** @c: parameter to compare
- **/
 int _putchar(char);
-/**
- * print_alphabet - print the alphabet
- *
- **/
 void print_alphabet(void);
-/**
- * print_alphabet_x10 - print the alphabet x10
- *
- **/
 void print_alphabet_x10(void);
-/**
- * _islower - checks for lowercase character
- * @c: parameter to check
- **/
 int _islower(int c);
-/**
- * _isalpha - checks for alphabetic character
- * @c: parameter to check
- **/
 int _isalpha(int c);
-/**
- * print_sign - prints the sign of a number
- * @n: parameter to sign a number
- **/
 int print_sign(int n);
-/**
- * _abs - computes the absolute value of an integer
- * @i: parameter to compute the absolute value
- **/
 int _abs(int i);
-/**
- ** print_last_digit - prints the last digit of a number
- ** @n: parameter to give a number
- ***/
 int print_last_digit(int n);
-/**
- * jack_bauer - prints every M of the day, starting from 00 to 23.59
- *
- **/
 void jack_bauer(void);
-/**
- * times_table - print the 9 times table, starting with 0
- *
- **/
 void times_table(void);
-/**
- *  * add - adds two integers
- *   * @a: first integer
- *    * @b: second integer
- *     * Return: the result
- *      **/
 int add(int a, int b);
-/**
- * print_to_98 - prints all natural numbers from n to 98
- *
- **/
-void print_to_98(int n);
-/**
- *  * print_times_table - prints the n times table
- *   * @n: parameter to print the times table
- *    *
- *     **/
 void print_times_table(int n);
 
 #endif
