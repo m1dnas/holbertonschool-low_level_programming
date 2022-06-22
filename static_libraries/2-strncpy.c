@@ -1,20 +1,24 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strncpy - writes the character c to stdout
- * @dest: The character to print
- * @src: The character to print
- * @n: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+ * _strncpy - copies a string
+ * @dest: the pointer to the destination array where the content's to be copied
+ * @src: the string to be copied
+ * @n: the number of characters to be copied from source
+ * Return: dest
+ **/
 char *_strncpy(char *dest, char *src, int n)
 {
-int i;
-for (i = 0; i < n && src[i] != '\0'; i++)
-dest[i] = src[i];
-for ( ; i < n; i++)
-dest[i] = '\0';
+	int i;
 
-return (dest);
+	for (i = 0; i < n && src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	for (; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
+	return (dest);
 }

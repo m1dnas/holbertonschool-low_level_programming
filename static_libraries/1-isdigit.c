@@ -1,17 +1,19 @@
 #include "main.h"
+#include <ctype.h>
+
 /**
- * _isdigit - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- */
+ * _isdigit - functions that checks for a digit
+ * @c: parameter to check
+ * Return: 1 if is c is a digit, 0 otherwise
+ **/
 int _isdigit(int c)
 {
-if (c >= 48 && c <= 57)
-{
-return (1);
-}
-else
-{
-return (0);
-}
+	if (isdigit(c) > 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }

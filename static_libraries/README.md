@@ -1,1 +1,1 @@
-future edition
+FUTURE EDITION

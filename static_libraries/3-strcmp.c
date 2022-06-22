@@ -1,20 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strcmp - writes the character c to stdout
- * @s1: The character to print
- * @s2: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+ * _strcmp - compares two strings
+ * @s1: the first string to be compared
+ * @s2: the second string to be compared
+ * Return: if the 1st non-matching char has a lower ascii value in s1 than s2
+ *         if the strings are equal
+ *         if the 1st non-matching char has a higher ascii value in s1 than s2
+ **/
 int _strcmp(char *s1, char *s2)
 {
-int i = 0;
-while ((s1[i] != 0 && s2[i] != 0) && (s1[i] == s2[i]))
-{
-i++;
-}
-if (s1[i] != s2[i])
-return (s1[i] - s2[i]);
-return (0);
+	int i;
+
+	for (i = 0; s1[i] - s2[i] == 0 && s1[i] != '\0'; i++)
+	{
+	}
+	return (s1[i] - s2[i]);
 }

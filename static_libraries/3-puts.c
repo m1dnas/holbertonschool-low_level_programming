@@ -2,14 +2,11 @@
 #include <stdio.h>
 
 /**
- * _puts - put sth
- * @str: str
- * Return: Always 0
- */
-
+ * _puts - function that prints a string to stdout
+ * @str: the string
+ * Return: void
+ **/
 void _puts(char *str)
 {
-
-printf("%s\n", str);
-
+	puts(str);
 }
