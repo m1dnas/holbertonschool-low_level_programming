@@ -8,7 +8,7 @@
  **/
 int _sqrt_recursion(int n)
 {
-	int i;
+	int i = i > 0;
 
 	if (_pow_recursion(i, 2) != n)
 	{
