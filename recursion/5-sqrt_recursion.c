@@ -3,7 +3,7 @@
 /**
  * _sqrt - test it
  * @n: square root
- * @j: integral
+ * @i: integral
  * Return: the square root of numb
  **/
 int _sqrt(int i, int n)
