@@ -1,3 +1,4 @@
+#include <stdio.h>
 
 /**
  * _atoi - kk
@@ -6,5 +7,6 @@
  **/
 int _atoi(char *i)
 {
-	return (i);
+	printf("%s", i);
+	return (0);
 }
