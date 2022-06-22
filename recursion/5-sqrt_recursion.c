@@ -7,12 +7,12 @@
  **/
 int _sqrt_recursion(int n)
 {
-	int i;
+	int i, j = i * i;
 
-	if (i * i < n || i * i > n)
+	if (j < n || j > n)
 	{
 		return (-1);
 	}
-	i * i = _sqrt_recursion(n);
+	j = _sqrt_recursion(n);
 	return (i);
 }
