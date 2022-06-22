@@ -1,5 +1,5 @@
 #include "main.h"
-#include "4-pow_recursion.c"
+#include <math.h>
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
@@ -8,13 +8,16 @@
  **/
 int _sqrt_recursion(int n)
 {
-	int i = i > 0;
-
-	if (_pow_recursion(i, 2) != n)
+	if (n != sqrt)
 	{
 		return (-1);
 	}
-	n = _sqrt_recursion(n);
-	if (n == _pow_recursion(i, 2))
-	return (i);
+	else if (n == sqrt)
+	{
+		return (1);
+	}
+	else
+	{
+		return (sqrt(n));
+	}
 }
