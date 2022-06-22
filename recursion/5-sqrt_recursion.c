@@ -11,12 +11,13 @@ int _sqrt_recursion(int n)
 	int i;
 
 	if (i != n)
+	{
 		if (_pow_recursion(i, 2) < n || _pow_recursion(i, 2) > n)
 		{
 			return (-1);
 		}
-	else
+	}
 	n = _sqrt_recursion(n);
-	n = _pow_recursion(i, 2);
+	if (n = _pow_recursion(i, 2))
 	return (i);
 }
