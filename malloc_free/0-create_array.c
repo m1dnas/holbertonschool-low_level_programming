@@ -1,4 +1,6 @@
-#define "main.h"
+#include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
 
 /**
  * create_array - creates an array of chars
@@ -6,7 +8,7 @@
  * @c: initializes with a specific char
  * Return: pointer to the array or NULL if it fails
  **/
-char create_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	int i;
 	char *str;
@@ -18,7 +20,7 @@ char create_array(unsigned int size, char c)
 	}
 	for (i = 0; i < size; i++)
 	{
-		str[i] = c
+		str[i] = c;
 	}
 	return (str);
 }
