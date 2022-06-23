@@ -10,7 +10,8 @@
  **/
 char *create_array(unsigned int size, char c)
 {
-	int i;
+	/* to compare i with size, both must be the same type (unsigned int) */
+	unsigned int i;
 	char *str;
 
 	str = malloc(size);
@@ -26,4 +27,6 @@ char *create_array(unsigned int size, char c)
 		}
 	return (str);
 	}
+	else
+		return (NULL);
 }
