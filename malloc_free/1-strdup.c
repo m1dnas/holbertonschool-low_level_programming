@@ -12,6 +12,10 @@ char *_strdup(char *str)
 	unsigned int i, j;
 	char *ssttrr;
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	for (j = 0; str[j]; j++)
 		;
 	j++;
@@ -29,10 +33,6 @@ char *_strdup(char *str)
 			return (ssttrr);
 		}
 	}
-	if (str == NULL || ssttrr == NULL)
-	{
-		return (NULL);
-	}
-	else
+	else	
 		return (NULL);
 }
