@@ -9,10 +9,14 @@
  **/
 char *_strdup(char *str)
 {
-	int i;
+	unsigned int i, j;	
 	char *ssttrr;
 
-	ssttrr = malloc(sizeof(str));
+	for (j = 0; str[j]; j++)
+		;
+	j++
+
+	ssttrr = malloc(j * sizeof(char));
 
 	if (str != 0)
 	{
