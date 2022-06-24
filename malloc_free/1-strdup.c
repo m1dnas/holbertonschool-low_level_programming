@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	{
 		if (ssttrr != 0)
 		{
-			for (i = 0; i != '\0'; i++)
+			for (i = 0; str[i]; i++)
 			{
 				ssttrr[i] = str[i];
 			}
