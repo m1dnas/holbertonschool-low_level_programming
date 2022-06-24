@@ -13,16 +13,17 @@ char *_strdup(char *str)
 	char *ssttrr;
 
 	ssttrr = malloc(*str);
+	
 	if (str != 0)
 	{
-	if (ssttrr != 0)
-	{
-	for (i = 0; i != '\0'; i++)
-	{
-		ssttrr[i] = str[i];
-	}
-	return (ssttrr);
-	}
+		if (ssttrr != 0)
+		{
+			for (i = 0; i != '\0'; i++)
+			{
+				ssttrr[i] = str[i];
+			}
+			return (ssttrr);
+		}
 	}
 	else 
 		return (NULL);
