@@ -9,7 +9,7 @@
  **/
 char *_strdup(char *str)
 {
-	unsigned int i, j;	
+	unsigned int i, j;
 	char *ssttrr;
 
 	for (j = 0; str[j]; j++)
@@ -29,7 +29,7 @@ char *_strdup(char *str)
 			return (ssttrr);
 		}
 	}
-	if (str == NULL)
+	if (str == NULL || ssttrr == NULL)
 	{
 		return (NULL);
 	}
