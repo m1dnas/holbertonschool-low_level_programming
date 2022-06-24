@@ -25,6 +25,5 @@ char *_strdup(char *str)
 			return (ssttrr);
 		}
 	}
-	else 
-		return (NULL);
+	return (NULL);
 }
