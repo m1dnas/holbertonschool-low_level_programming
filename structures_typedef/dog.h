@@ -1,3 +1,6 @@
+/**
+ * dog - print its content
+ **/
 struct dog
 {
 	char *name;
