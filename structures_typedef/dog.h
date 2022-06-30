@@ -2,6 +2,9 @@
 #define DOG
 /**
  * struct dog - print its content
+ * @name: name
+ * @age: age
+ * @owner: owner
  **/
 struct dog
 {
