@@ -31,7 +31,7 @@ char *_strdup(char *str)
 }
 /**
  * new_dog - creates a new dog
- * @name: name 
+ * @name: name
  * @age: age
  * @owner: owner
  * Return: a dog object
@@ -57,5 +57,5 @@ if (!d->owner)
 	return (NULL);
 }
 d->age = age;
-return (d); 
+return (d);
 }
