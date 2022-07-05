@@ -1,5 +1,7 @@
 #include "variadic_functions.h"
 #include <string.h>
+#include <stardg.h>
+#include <stdio.h>
 /**
  * print_all - prints all
  * @format: format of string
