@@ -1,23 +1,24 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - gets node at index
- * @head: linked list at head
- * @index: index of node to grab
- * Return: node at index
+ * pop_listint -  free all the elements of the list
+ * @head: the first element of the list
+ * Return: i
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+int pop_listint(listint_t **head)
 {
-	unsigned int count = 0;
-	listint_t *tmp;
+	listint_t *aux;
+	int i;
 
-	tmp = head;
-	while (count != index && tmp != NULL)
+	if (*head)
 	{
-		count++;
-		tmp = tmp->next;
+	i = (*head)->n;
+	aux = *head;
+	*head = (*head)->next;
+	free(aux);
 	}
-
-	if (count != index)
-		return (NULL);
-	return (tmp);
+	else
+	{
+		return (0);
+	}
+	return (i);
 }
